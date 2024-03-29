@@ -1,0 +1,7 @@
+name: py31
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+    - -r file:requirements.txt
